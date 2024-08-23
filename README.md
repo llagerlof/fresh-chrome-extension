@@ -1,13 +1,13 @@
-# <img src="logo512.png" alt="Extension Logo" width="100" height="100" style="vertical-align: middle; margin-left: 10px;"> Fresh Chrome Extension boilerplate (Manifest V3) 
+# <img src="logo512.png" alt="Extension Logo" width="100" height="100" style="vertical-align: middle; margin-left: 10px;"> Fresh Chrome Extension boilerplate
 
 ## Purpose
 
-This extension serves as a boilerplate for creating new extensions for Chromium-based browsers, such as Google Chrome.
+This extension serves as a boilerplate for creating new extensions _(Manifest V3)_ for Chromium-based browsers, such as Google Chrome.
 It shows basic interactions between a popup, content scripts, and the active tab. It can be easily extended to add more complex functionality.
 
 ## The biggest improvement in this version (3.0.2)
 
-Now when the user clicks the browser's extension button a popup is shown instead just logging a message to the console.
+Now when the user clicks the browser's extension button a popup is shown instead of just logging a message to the console.
 
 ## What this extension does
 
