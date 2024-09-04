@@ -1,4 +1,4 @@
 // this code will be executed after page load
 (function() {
-  console.log('after.js executed');
+  console.log('Script "after.js" executed after page load.');
 })();

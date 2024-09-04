@@ -11,7 +11,7 @@ document.getElementById('btnShowOrangeDiv').addEventListener('click', function()
 // this code will be executed when the button btnShowOrangeDiv is clicked
 function modifyDOM() {
   const div = document.createElement('div');
-  div.textContent = 'DOM modified!';
+  div.textContent = 'DOM modified! (I am in "popup.js")';
   div.style.cssText =
     'background-color: orange; color: black; font-weight: bold; padding: 10px; width: 100%; box-sizing: border-box;';
   document.body.insertAdjacentElement('afterbegin', div);

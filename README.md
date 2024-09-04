@@ -3,9 +3,10 @@
 ## Purpose
 
 This extension serves as a boilerplate for creating new extensions _(Manifest V3)_ for Chromium-based browsers, such as Google Chrome.
+
 It shows basic interactions between a popup, content scripts, and the active tab. It can be easily extended to add more complex functionality.
 
-## The biggest improvement in this version (3.0.2)
+## The biggest improvement in this version (3+)
 
 Now when the user clicks the browser's extension button a popup is shown instead of just logging a message to the console.
 
@@ -19,7 +20,7 @@ It provides the following functionality:
 
 3. When the button in the popup is clicked, it injects a script into the active tab that:
    - Adds an orange div at the top of the page with the message "DOM modified!"
-   - Logs a message to the DevTools console (F12)
+   - Logs the message "Action executed from popup!" to the DevTools console (F12)
 
 ## How to install
 

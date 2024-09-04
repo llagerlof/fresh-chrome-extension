@@ -2,7 +2,7 @@
   "name": "Fresh Chrome Extension",
   "description": "Fully functional, useful bare minimum Google Chrome extension boilerplate [Manifest V3].",
   "homepage_url": "https://github.com/llagerlof/fresh-chrome-extension",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "manifest_version": 3,
   "action": {
     "default_title": "Fresh Chrome Extension",
