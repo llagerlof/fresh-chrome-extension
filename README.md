@@ -10,6 +10,10 @@ It shows basic interactions between a popup, content scripts, and the active tab
 
 Now when the user clicks the browser's extension button a popup is shown instead of just logging a message to the console.
 
+<picture>
+  <img alt="fresh-chrome-extension-demo-image" src="https://github.com/user-attachments/assets/2a231a11-b60a-405b-835a-aa03d01d1988">
+</picture>
+
 ## What this extension does
 
 It provides the following functionality:
