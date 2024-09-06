@@ -1,4 +1,4 @@
-# <img src="logo512.png" alt="Extension Logo" width="100" height="100" style="vertical-align: middle; margin-left: 10px;"> Fresh Chrome Extension boilerplate
+# <img src="assets/images/logo512.png" alt="Extension Logo" width="100" height="100" style="vertical-align: middle; margin-left: 10px;"> Fresh Chrome Extension boilerplate
 
 ## Purpose
 

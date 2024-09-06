@@ -1,29 +1,29 @@
 {
-  "name": "Fresh Chrome Extension",
+  "name": "Fresh Chrome Extension boilerplate",
   "description": "Fully functional, useful bare minimum Google Chrome extension boilerplate [Manifest V3].",
   "homepage_url": "https://github.com/llagerlof/fresh-chrome-extension",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "manifest_version": 3,
   "action": {
-    "default_title": "Fresh Chrome Extension",
-    "default_popup": "popup.html",
+    "default_title": "Fresh Chrome Extension boilerplate",
+    "default_popup": "src/popup/popup.html",
     "default_icon": {
-      "16": "icon16.png",
-      "32": "icon32.png",
-      "64": "icon64.png",
-      "128": "icon128.png"
+      "16": "assets/icons/icon16.png",
+      "32": "assets/icons/icon32.png",
+      "64": "assets/icons/icon64.png",
+      "128": "assets/icons/icon128.png"
     }
   },
   "icons": {
-    "16": "icon16.png",
-    "32": "icon32.png",
-    "64": "icon64.png",
-    "128": "icon128.png"
+    "16": "assets/icons/icon16.png",
+    "32": "assets/icons/icon32.png",
+    "64": "assets/icons/icon64.png",
+    "128": "assets/icons/icon128.png"
   },
   "content_scripts": [
     {
       "run_at" : "document_start",
-      "js": ["before.js"],
+      "js": ["src/content/before.js"],
       "matches": [
         "https://*/*",
         "http://*/*"
@@ -31,7 +31,7 @@
     },
     {
       "run_at" : "document_idle",
-      "js": ["after.js"],
+      "js": ["src/content/after.js"],
       "matches": [
         "https://*/*",
         "http://*/*"
